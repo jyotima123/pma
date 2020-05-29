@@ -1,0 +1,32 @@
+/** @format */
+
+label {
+  color: #8794ab;
+}
+.form-control {
+  border: 1px solid darken($base-color, 2%);
+  font-size: 0.8rem;
+  font-weight: 600;
+  height: 35px;
+  &:focus {
+    box-shadow: none;
+    border-color: darken($base-color, 2%);
+  }
+  &::placeholder {
+    color: darken($base-color, 10%);
+    font-weight: normal;
+  }
+}
+
+.adon-group {
+  display: flex;
+  border: 1px solid darken($base-color, 2%);
+  border-radius: 3px;
+  .form-control,
+  .v-btn,
+  .icon {
+    border: 0;
+    border-radius: 0;
+    height: 33px;
+  }
+}

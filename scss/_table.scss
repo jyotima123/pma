@@ -1,0 +1,30 @@
+/** @format */
+.table,
+table {
+  border-collapse: collapse;
+  width: 100%;
+  thead {
+    th {
+      font-weight: 600;
+      background-color: $light-color;
+    }
+  }
+  th,
+  td {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    color: $secondary-color;
+    vertical-align: middle;
+  }
+}
+
+.table-light {
+  background-color: $light-color;
+}
+
+.nowrap {
+  th,
+  td {
+    white-space: nowrap;
+  }
+}

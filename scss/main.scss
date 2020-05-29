@@ -1,0 +1,46 @@
+/** @format */
+
+@import "./config";
+@import "./reset";
+@import "./layout";
+@import "./auth";
+@import "./form";
+@import "./table";
+@import "./utilites";
+@import "./component";
+
+.milestone-list {
+  li {
+    display: flex;
+    align-items: center;
+    border: 1px dashed $base-color;
+    padding: 10px;
+    .item {
+      padding: 0.5rem;
+      color: darken($secondary-color, 20%);
+    }
+    .amt {
+      color: $primary-color;
+      font-weight: 400;
+      font-size: 1rem;
+    }
+  }
+}
+
+.custom-combobox {
+  position: relative;
+  display: inline-block;
+}
+.custom-combobox-toggle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-left: -1px;
+  padding: 0;
+}
+.custom-combobox-input {
+  margin: 0;
+  padding: 5px 10px;
+}
+
+@import "./mobile";
